@@ -1,0 +1,29 @@
+{
+  "name": "basenodejs",
+  "version": "1.0.0",
+  "description": "Base node js from a simple site",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrBiggs/Simple-NodeJs.git"
+  },
+  "author": "Sr Biggs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SrBiggs/Simple-NodeJs/issues"
+  },
+  "homepage": "https://github.com/SrBiggs/Simple-NodeJs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
